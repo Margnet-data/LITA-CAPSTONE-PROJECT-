@@ -1,4 +1,4 @@
-## Sales Overview of a Retail Store
+## Customer Segmentation and Overview of Subscription Trends for a Subscription Company 
 ---
 This Project provides an analysis of a retail store's sales data to understand customer behavior, sales trends, and product performance. The project includes data cleaning, exploration, and visualization of key insights to help the store make data-driven decisions.
 
@@ -19,7 +19,8 @@ Statistical Analysis
 Visualization
 
 
-Data Dictionary
+### Data Dictionary
+---
 
 CustomerID: Unique identifier for each customer.
 
@@ -40,12 +41,13 @@ SubscriptionStartDate: Date when the customer started their subscription.
 SubscriptionEndDate: Date when the subscription ended, if applicable.
 
 
-###Data Source
+### Data Source
 ---
 
 The main data source for this analysis is sales data from the retail store, available as "Retail_SalesData.csv" and imported into SQL Server for advanced querying and analysis.
 
-Tools Used
+### Tools Used
+---
 
 Excel: For initial data cleaning and basic analysis.
 
@@ -54,9 +56,10 @@ SQL Server: For data processing and querying.
 Power BI: For data visualization and dashboard creation.
 
 
-Methodology
+### Methodology
+---
 
-Data Cleaning
+#### Data Cleaning
 
 The data cleaning process was performed in Excel and SQL Server, following these steps:
 
@@ -70,7 +73,7 @@ The data cleaning process was performed in Excel and SQL Server, following these
 
 
 
-New Column Creation
+#### New Column Creation
 
 1. Subscription Duration: Calculated the duration of each subscription in days using DATEDIFF.
 
@@ -79,7 +82,7 @@ New Column Creation
 
 
 
-Exploratory Data Analysis
+#### Exploratory Data Analysis
 
 Descriptive Statistics: Calculated average revenue per product and customer retention rate.
 
@@ -97,7 +100,7 @@ Average Revenue per Customer: Average amount spent by each customer.
 Average Subscription Duration: The mean length of customer subscriptions.
 
 
-Visualization
+### Visualization
 
 The interactive dashboard provides insights into:
 
@@ -120,6 +123,3 @@ The interactive dashboard provides insights into:
 
 ---
 
-This README gives a clear, structured overview of the project, making it easy for others to understand the purpose and findings of your analysis. Just copy and paste this text into a new README.md file on GitHub, and it will automatically format with the headings and lists.
-
-## Project Overview
