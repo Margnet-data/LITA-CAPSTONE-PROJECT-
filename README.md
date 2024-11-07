@@ -1,6 +1,6 @@
 ## Customer Segmentation and Overview of Subscription Trends for a Subscription Company 
 ---
-This Project provides an analysis of a retail store's sales data to understand customer behavior, sales trends, and product performance. The project includes data cleaning, exploration, and visualization of key insights to help the store make data-driven decisions.
+This Project provides an analysis of a Subscription company's data to understand customer behavior, subscription trends, and cancellations. The project includes data cleaning, exploration, and visualization of key insights to help the company make data-driven decisions.
 
 
 ## Table of Contents
@@ -24,11 +24,7 @@ Visualization
 
 CustomerID: Unique identifier for each customer.
 
-OrderDate: Date when the order was placed.
-
-Product: Name or ID of the product purchased.
-
-Quantity: Number of units purchased in each transaction.
+Subscription Type: Name of the type of subscription (e.g., "Basic" or "Standard" or "Premium").
 
 TotalRevenue: Total revenue generated from each transaction.
 
@@ -44,7 +40,7 @@ SubscriptionEndDate: Date when the subscription ended, if applicable.
 ### Data Source
 ---
 
-The main data source for this analysis is sales data from the retail store, available as "Retail_SalesData.csv" and imported into SQL Server for advanced querying and analysis.
+The main data source for this analysis is customer data from the subscription company, available as "Customer_Data.csv" and imported into SQL Server for advanced querying and analysis.
 
 ### Tools Used
 ---
@@ -98,12 +94,6 @@ Total Revenue: Sum of revenue from all transactions.
 Average Revenue per Customer: Average amount spent by each customer.
 
 Average Subscription Duration: The mean length of customer subscriptions.
-
-[!CUSTOMER SEGMENTATION AND SUBSCRIPTION TRENDS DASHBOARD]( https://github.com/Margnet-data/LITA-CAPSTONE-PROJECT-2/blob/main/CUSTOMER%20SEGMENTATION%20SUBSCRIPTION.png)
-
-
-
-
 
 
 
